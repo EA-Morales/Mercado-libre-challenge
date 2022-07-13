@@ -31,10 +31,14 @@
       "warn",
       {
         "useTabs": true,
-        "singleQuote": false,
+        "singleQuote": true,
         "jsxSingleQuote": true,
         "bracketSameLine": true,
-        "arrowParens": "avoid"
+        "arrowParens": "always"
+      },
+      "error",
+      {
+        "endOfLine": "auto"
       }
     ],
     "no-unused-vars": [
